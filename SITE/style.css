@@ -1,0 +1,245 @@
+body{
+    background-color: rgba(128, 128, 128, 0.726);
+}
+
+header{
+    position: fixed;
+    background-color: #242a34;
+    padding: 10px;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+    margin-top: -21px;
+    text-align: center;
+
+}
+
+header h1{
+    text-transform: uppercase;
+    font-size: 2.3rem;
+    font-weight: bold;
+    border: solid 5px white;
+    background-color: #242a34;
+    color:white ;
+    display: inline-block;
+    padding: 2px 15px;
+    border-radius: 32px;
+}
+.welcome{
+    max-width: 100%;
+    width: 1200px;
+    position: relative;
+    /*background-color: darkslateblue;*/
+    margin: 10px auto;
+    height: 500px;
+}
+
+
+
+.welcome img.welcome-image{
+    position: absolute;
+    width: 350px;
+    right: 5%;
+    top: 30%;
+    border-radius: 50%;
+    border-top-right-radius: 0;
+}
+
+.welcome ul li img{
+    position: absolute;
+    height: 130px;
+    top: 70%;
+    border-radius: 50%;
+    background-color: #444;
+    margin-left: 3%;
+}
+
+.welcome ul{
+    width: 40%;
+}
+.welcome h2{
+    font-size: 2.3rem;
+    text-transform: uppercase;
+    position: absolute;
+    left: 5%;
+    top: 28%;
+    color: white
+
+}
+
+.welcome h2 span{
+    font-weight: bold;
+    color: rgb(114, 106, 106);
+}
+
+nav{
+    position: sticky;
+    width: 100%;
+    top: 21.1%;
+    margin: 25px auto;
+    background-color: rgb(114, 106, 106);
+    z-index: 15;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: white;
+}
+
+
+main.main-content{
+    width: 100%;
+    max-width: 1800px;
+    margin: 75px auto;
+}
+
+main h2{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    color: #242a34;
+    text-transform: capitalize;
+    background-color: #444;
+    text-align: center;
+    color: white;
+    width: 30%;
+    padding: 10px;
+}
+
+
+
+section p{
+    font-size: 1.4rem;
+    margin-top: 0rem;
+}
+
+.images{
+    display: flex;
+    justify-content: space-between;
+}
+
+.images li{
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+.image img{
+    width: 100%;
+    border: solid rgb(red, green, blue);
+    border-radius: 1rem;
+}
+
+div.services .row{
+    display: flex;
+}
+
+div.service-title{
+    display: flex;
+}
+
+.service-title img{
+    height: 20px;
+    padding: 15px;
+    margin-left: 0rem;
+    margin-top: 0.8rem;
+}
+
+div.service-title h3{
+    font-size: 1.5rem;
+    color: rgb(21, 21, 230);
+    margin-bottom: 1rem;
+}
+
+
+form{
+    border: solid 2px #ddd;
+    width: 50%;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+form input[type="text"], form input[type="email"], textarea{
+   font-size: 1.2rem;
+   width: 100%;
+   border: solid 2px #ddd;
+   margin: 3px 0;
+   text-align: center;
+   justify-content: center;
+}
+
+form input[type="submit"]{
+    font-size: 1.4rem;
+    font-weight:bold ;
+    border: none;
+    background-color: white;
+    color: #242a34;
+    padding: 10px 10px;
+    border-radius: 2rem;
+    width: 100%;
+}
+
+.whatsapp{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.whatsapp img.Logo{
+    height: 32px;
+    justify-items: center;
+}
+
+.whatsapp span.phone{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+}
+
+div.form{
+    position: relative;
+}
+
+div.form form{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    border-radius: 2rem;
+    background-color: #242a3481;
+}
+
+div.form img{
+    height: 800px;
+}
+
+footer{
+    width: 100%;
+    background-color: #242a34;
+    color:white ;
+    margin-top: 50px;
+    bottom: 0;
+}
+
+footer p{
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 15px 0;
+}
+
+footer p a{
+    text-decoration: none;
+    color: #ddd;
+    font-weight: bold;
+}
+
+
+
+
